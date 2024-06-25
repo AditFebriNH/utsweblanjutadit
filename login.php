@@ -23,6 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    
 </head>
 
 <body>
@@ -36,6 +37,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
     </form>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Kode Buku</th>
+            <th>ISBN</th>
+            <th>Judul Buku</th>
+            <th>Pengarang</th>
+            <th>Sekilas Isi</th>
+            <th>Tanggal Masuk</th>
+            <th>Stok</th>
+    
+        </tr>
+</table>
 </body>
 
 </html>
